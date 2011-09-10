@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
+    <string name="default_buttons_support">Support</string>
+	<string name="support_new_features">Support new features</string>
+    
+    
 	<string name="rendering_out_of_memory">Not enough process memory to display selected area</string>
 	<string name="use_fluorescent_overlays">Fluorescent overlays</string>
 	<string name="use_fluorescent_overlays_descr">Use fluorescent colors to display tracks and routes</string>
@@ -204,6 +208,7 @@
 	
 	<string name="select_search_position">Search near :</string>
 	<string name="context_menu_item_search">Search near here</string>
+
 	<string name="tip_recent_changes_0_6_7_t">Recent changes for 0.6.7 :
 \n\t- Offline data manager (download, delete, activate / deactivate offline data directly in Osmand)
 \n\t- Favorite points and groups (categorize, delete, manage favorites)
