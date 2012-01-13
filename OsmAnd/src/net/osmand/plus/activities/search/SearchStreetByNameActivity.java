@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.osmand.CollatorStringMatcher;
-import net.osmand.ResultMatcher;
 import net.osmand.CollatorStringMatcher.StringMatcherMode;
+import net.osmand.ResultMatcher;
 import net.osmand.data.City;
 import net.osmand.data.PostCode;
 import net.osmand.data.Street;
@@ -22,12 +22,6 @@ public class SearchStreetByNameActivity extends SearchByNameAbstractActivity<Str
 	private RegionAddressRepository region;
 	private City city;
 	private PostCode postcode;
-<<<<<<< HEAD
-	
-=======
-	private OsmandSettings settings;
-	private String oldfilter = "";
->>>>>>> 7dfefb4... Search countries over the country
 	
 	@Override
 	public AsyncTask<Object, ?, ?> getInitializeTask() {
