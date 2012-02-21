@@ -129,6 +129,9 @@
 		<ListPreference android:key="service_off_wait_interval" android:title="@string/background_service_wait_int"
 			android:summary="@string/background_service_wait_int_descr"></ListPreference>
 	</PreferenceScreen>
+	
+	<Preference android:title="BidForFix" android:key="bidforfix">
+	</Preference>
 </PreferenceCategory>
 
 
