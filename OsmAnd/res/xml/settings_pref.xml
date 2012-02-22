@@ -130,7 +130,7 @@
 			android:summary="@string/background_service_wait_int_descr"></ListPreference>
 	</PreferenceScreen>
 	
-	<Preference android:title="BidForFix" android:key="bidforfix">
+	<Preference android:title="@string/support_new_features" android:key="bidforfix">
 	</Preference>
 </PreferenceCategory>
 
